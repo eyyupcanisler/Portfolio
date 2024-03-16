@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0EF; /* Light gray */
+    color: #333; /* Dark gray */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4caf50; /* Green */
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff; /* White */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #2e7d32; /* Dark green */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff; /* White */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff; /* White */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+    max-width: 800px;
+    margin: 20px auto; /* Set top and bottom margin to 20px and left and right margin to auto */
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+}
+
+.green {
+    color: #4caf50; /* Green */
+}
+
+.project-section {
+    background-color: #F6F6F6; /* Light gray */
+}
+
+.container.narrow {
+    max-width: 600px;
+}
+
+.green a {
+    color: #4caf50; /* Green */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.green a:hover {
+    color: #388e3c; /* Darker green on hover */
+}
+
+.green a:active {
+    color: #1b5e20; /* Even darker green when clicked */
+}
+
+footer {
+    background-color: #4caf50; /* Green */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 0 0 10px 10px;
+}
